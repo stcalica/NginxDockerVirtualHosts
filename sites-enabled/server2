@@ -1,7 +1,7 @@
 server{
 	listen 80;
 	server_name server2;
-	server_name www.server2.com; 
-	root var/www/server2;
+	server_name server2.com; 
+	root /var/www/server2/html;
 	index index.html index.htm;
 }
